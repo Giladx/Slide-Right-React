@@ -1,0 +1,103 @@
+.contact-container {
+  width: 100%;
+  display: flex;
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-main {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.contact-hero {
+  display: none;
+  position: relative;
+  padding-top: var(--dl-space-space-sixunits);
+}
+.contact-max-width {
+  margin-top: var(--dl-space-space-threeunits);
+  background-color: var(--dl-color-scheme-yellow);
+}
+.contact-heading-container {
+  flex: 1;
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-text {
+  color: var(--dl-color-scheme-lightblue);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.contact-contact-form {
+  flex: 0 0 auto;
+  width: 100%;
+  height: var(--dl-size-size-maxwidth);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.contact-div1 {
+  width: 100%;
+  height: auto;
+}
+@media(max-width: 1600px) {
+  .contact-text {
+    color: var(--dl-color-scheme-lightblue);
+  }
+}
+@media(max-width: 991px) {
+  .contact-heading-container {
+    max-width: 100%;
+    margin-bottom: 42px;
+  }
+  .contact-text {
+    height: auto;
+  }
+  .contact-div1 {
+    height: auto;
+  }
+}
+@media(max-width: 767px) {
+  .contact-heading-container {
+    width: 100%;
+  }
+  .contact-text {
+    width: 100%;
+    font-size: 48px;
+  }
+  .contact-contact-form {
+    height: auto;
+    position: relative;
+  }
+  .contact-div1 {
+    height: auto;
+  }
+}
+@media(max-width: 479px) {
+  .contact-hero {
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .contact-max-width {
+    height: var(--dl-size-size-large);
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-heading-container {
+    position: relative;
+  }
+  .contact-contact-form {
+    height: auto;
+  }
+  .contact-div1 {
+    height: auto;
+  }
+}

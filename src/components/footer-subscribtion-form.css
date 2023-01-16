@@ -1,0 +1,42 @@
+.footer-subscribtion-form-subscribe-container {
+  flex: 0 0 auto;
+  width: 35%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.footer-subscribtion-form-text {
+  color: var(--dl-color-scheme-lightblue);
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.footer-subscribtion-form-textinput {
+  color: var(--dl-color-scheme-lightblue);
+  outline: none;
+  align-self: stretch;
+  padding-top: 4px;
+  border-color: rgba(0, 0, 0, 0.1);
+  padding-left: 0px;
+  border-radius: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
+  padding-bottom: 4px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+}
+.footer-subscribtion-form-button {
+  color: var(--dl-color-scheme-yellow);
+  transition: 0.3s;
+  background-color: var(--dl-color-scheme-lightblue);
+}
+.footer-subscribtion-form-button:hover {
+  color: var(--dl-color-scheme-black);
+  background-color: var(--dl-color-scheme-yellow);
+}
+@media(max-width: 767px) {
+  .footer-subscribtion-form-subscribe-container {
+    width: 100%;
+  }
+}

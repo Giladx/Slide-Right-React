@@ -1,0 +1,111 @@
+.navigation-links-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links-navlink {
+  color: var(--dl-color-scheme-lightblue);
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.navigation-links-navlink:hover {
+  color: var(--dl-color-scheme-yellow);
+  border-color: var(--dl-color-scheme-yellow);
+  border-width: 1px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.navigation-links-navlink1 {
+  cursor: pointer;
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-navlink1:hover {
+  color: var(--dl-color-scheme-yellow);
+  border-color: var(--dl-color-scheme-yellow);
+  border-width: 1px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.navigation-links-navlink2 {
+  cursor: pointer;
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.navigation-links-navlink2:hover {
+  color: var(--dl-color-scheme-yellow);
+  border-color: var(--dl-color-scheme-yellow);
+  border-width: 1px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.navigation-links-text {
+  cursor: pointer;
+  display: none;
+  transition: 0.3s;
+  margin-left: 41px;
+}
+.navigation-links-text:hover {
+  color: var(--dl-color-scheme-yellow);
+}
+
+
+
+
+
+
+
+
+.navigation-links-root-class-name17 {
+  margin-right: var(--dl-space-space-threeunits);
+}
+@media(max-width: 1600px) {
+  .navigation-links-navlink {
+    color: var(--dl-color-scheme-lightblue);
+  }
+  .navigation-links-navlink1 {
+    color: var(--dl-color-scheme-lightblue);
+  }
+  .navigation-links-navlink2 {
+    color: var(--dl-color-scheme-lightblue);
+  }
+}
+@media(max-width: 1200px) {
+  .navigation-links-root-class-name17 {
+    width: var(--dl-size-size-xxlarge);
+  }
+}
+@media(max-width: 767px) {
+  .navigation-links-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links-navlink {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-navlink1 {
+    margin-left: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-navlink2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .navigation-links-navlink1 {
+    font-family: Fira Sans;
+    margin-left: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}

@@ -1,0 +1,20 @@
+.services-card-text {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.services-card-text1 {
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.services-card-text2 {
+  cursor: pointer;
+}
+@media(max-width: 1200px) {
+  .services-card-text {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .services-card-text1 {
+    height: var(--dl-size-size-medium);
+  }
+}

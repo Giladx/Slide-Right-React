@@ -1,0 +1,101 @@
+.page-nav-page-nav {
+  top: 0;
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: sticky;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.page-nav-nav-container {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.page-nav-link {
+  color: var(--dl-color-scheme-lightblue);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.page-nav-link1 {
+  color: var(--dl-color-scheme-lightblue);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.page-nav-link2 {
+  color: var(--dl-color-scheme-lightblue);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.page-nav-link3 {
+  color: var(--dl-color-scheme-lightblue);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.page-nav-link4 {
+  color: var(--dl-color-scheme-lightblue);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.page-nav-link5 {
+  color: var(--dl-color-scheme-lightblue);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.page-nav-link6 {
+  color: var(--dl-color-scheme-lightblue);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.page-nav-link7 {
+  color: var(--dl-color-scheme-lightblue);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.page-nav-link8 {
+  color: var(--dl-color-scheme-lightblue);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.page-nav-root-class-name {
+  display: none;
+}
